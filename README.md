@@ -19,12 +19,8 @@ which is not published in npm.
 So you have to prefetch them to your local machine.
 
 ```console
-git clone https://github.com/beijaflor-io/ghcjs-commonjs.git
-git clone https://github.com/y-taka-23/miso-tutorial-app.git
-cd miso-tutorial-app
-npm install
-stack build
-npm run start
+git clone https://github.com/y-taka-23/miso-tutorial-app.git && cd miso-tutorial-app
+make
 ```
 
 After a while, access [http://localhost:3000](http://localhost:3000),
